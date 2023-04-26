@@ -1,0 +1,18 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) 
+ {  
+  
+       double p1, media;
+
+        Console.WriteLine("Digite a nota P1:");
+        p1 = double.Parse(Console.ReadLine());
+
+        media = 5;
+
+        double p2 = (3 * media - p1) / 2;
+
+        Console.WriteLine($"Para ser aprovado com média {media}, é necessário tirar {p2.ToString("F2")} na Prova 2.");
+  
+}
